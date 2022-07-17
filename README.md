@@ -4,9 +4,6 @@
 ## QuantityPicker
 QuantityPicker is compose component to add/remove anything
 
-## Version
-$quantityPickerVersion = quantity-picker-1.0.0
-
 ## Installation
 - To implement **QuantityPicker** to your Android project via Gradle, you need to add JitPack repository to your root/project level build.gradle.
 ```gradle
@@ -15,8 +12,9 @@ allprojects {
 ```
 - After adding JitPack repository, you can add **QuantityPicker** dependency to your app/module level build.gradle.
 ```gradle
-dependencies {  
- implementation "com.github.selimtoksal:quantity-picker:$quantityPickerVersion"}
+dependencies {
+ implementation 'com.github.selimtoksal:QuantityPicker:0.0.1'
+ }
 ```
 
 ## Usage
